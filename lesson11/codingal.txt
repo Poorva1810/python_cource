@@ -1,0 +1,3 @@
+file in write modethis is a new text
+file in append modenew text in append mode
+i am poorva
