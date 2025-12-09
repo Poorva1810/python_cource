@@ -1,0 +1,10 @@
+file=open("codingal2.txt","r")
+print(file.read())
+file.close
+file=open("codingal2.txt","r")
+print("\n read first 10 characters \n")
+print(file.read(10))
+file.close()
+file=open("codingal2.txt","a")
+file.write("\nappended text")
+file.close()
