@@ -1,6 +1,6 @@
-outputFile=open("no_repeat.txt","w")
-inputFile=open("sample_doc.txt","r")
-lines_seen_so_far=set()
+outputFile = open("no_repeat.txt","w")
+inputFile =  open("sample_doc.txt","r")
+lines_seen_so_far= set()
 print("eliminating duplicate lines..")
 for line in inputFile:
     if line not in lines_seen_so_far:
