@@ -1,0 +1,9 @@
+A = int(input("Enter A (0 or 1): "))
+B = int(input("Enter B (0 or 1): "))
+C = int(input("Enter C (0 or 1): "))
+X = A & B          
+Y = B | C          
+Z = B & C        
+W = Y & Z          
+Q = X | W          
+print("Output Q =", Q)
